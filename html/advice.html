@@ -2,10 +2,26 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>문정희의 홈페이지</title>
-  <link rel="stylesheet" href="./css/mystyle.css">
-  <style> </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상담문의</title>
+  <link rel="stylesheet" href="../css/mystyle.css">
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
 </head>
 <body>
   <svg height="120" width="100%">
@@ -15,7 +31,7 @@
     <defs>
       <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
-        <stop offset="100%" style="stop-color:rgb(2, 65, 30);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
       </linearGradient>
     </defs>
     <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
@@ -25,9 +41,9 @@
     
   <ul>
     <li><a class="active" href="https://jjungheejjang.github.io/home">Home</a></li>
-    <li><a href="./html/advice.html">상담안내</a></li>
-    <li><a href="./html/face.html">피부관리</a></li>
-    <li><a href="./html/body.html">바디관리</a></li>
+    <li><a href="./advice.html">상담문의</a></li>
+    <li><a href="./face.html">피부관리</a></li>
+    <li><a href="./body.html">바디관리</a></li>
     <li class="dropdown">
       <a href="#" class="dropbtn">즐겨찾기</a>
       <div class="dropdown-content" >
@@ -38,13 +54,13 @@
     </li>
   </ul>
 
-  <div>
-    <h1 >보드레스킨에서는 프라이빗한 공간에서 1:1 맞춤형 관리로 진행합니다.</h1>
-    <center><img src="./image/bodre.JPG" alt="보드레스킨 사진"></center>
-  </div>
+  <h2>상담 문의</h2>
+
   
-  
-   
-   
+   <p>위치</p> 
+   <p>경기도 시흥시 서울대학로278번길 19-14번지 배곧프라자5층 509호</p>
+  <img src="../image/gd.PNG" alt="지도">
+    <p>전화번호</p>
+    <p>031-488-9141/ 010-8264-9141</p>
 </body>
 </html>
